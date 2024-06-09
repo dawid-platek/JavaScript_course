@@ -1,4 +1,4 @@
 console.log('Hello World, ')
 
-console.log('from Visual Studio Code')
+console.log('from Visual Studio Code!')
 
