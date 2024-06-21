@@ -1,14 +1,21 @@
-console.log("Hello World, ");
+function helloName(name) {
 
-console.log("from Visual Studio Code!");
+  let result = "hello, " + name
+  return result
 
-let boolean1 = true
-let boolean2 = false
-
-let sampleNumber = 568.32;
-console.log(sampleNumber);
-
-{
-  let userName = "Test2";
-  console.log(userName);
 }
+
+const variabeFunction = Function  ();{
+  
+}
+let testName = "Test";
+
+const result1 = helloName("Kuba");
+console.log(result1);
+
+const result2 = helloName(testName);
+console.log(result2);
+
+
+helloName(testName);
+helloName();
