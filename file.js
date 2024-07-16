@@ -1,21 +1,32 @@
+// FUNKCJE
+
+// I metoda stworzenia funkcji
 function helloName(name) {
 
-  let result = "hello, " + name
-  return result
-
-}
-
-const variabeFunction = Function  ();{
+	let result = 'hello, ' + name
+	return result
   
 }
-let testName = "Test";
 
-const result1 = helloName("Kuba");
-console.log(result1);
+// II metoda stworzenia funkcji
+const variableFunction = function(name){
+	let result = 'hello, ' + name
+	return result
+}
 
-const result2 = helloName(testName);
-console.log(result2);
 
+// III metoda stworzenia funkcji (strzałdkowa)
+const arrowFunction = (name) => {
+	let result = 'hello, ' + name
+	return result
+}
+let testName = 'test'
 
-helloName(testName);
-helloName();
+const result1 = variableFunction('Kuba')
+console.log(result1)
+
+const result2 = helloName(testName)
+console.log(result2)
+
+const resultFromArrowFunction = arrowFunction('arrow')
+console.log(resultFromArrowFunction);
