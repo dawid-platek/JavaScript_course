@@ -41,9 +41,9 @@ console.log(a <= b); // false
 
 // MATH
 
-console.log( Math.floor(5.9));  // zaokrąglanie do najbliższej liczby całkowitej
-console.log(Math.round(5.6)); // zaokrąglanie do liczby całkowitej
-console.log(Math.abs(-5.6)); // wartość bezwzględna
+console.log( Math.floor(5.9));  // 5 -> zaokrąglanie do najbliższej liczby całkowitej
+console.log(Math.round(5.6)); // 6 -> zaokrąglanie do liczby całkowitej
+console.log(Math.abs(-5.6)); // 5.6 -> wartość bezwzględna
 
 
 
